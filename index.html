@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AOC 2020</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-dark">
+    <div class="container mt-5 mx-auto">
+        <div class="card w-75 mx-auto p-1">
+            <img src="https://miro.medium.com/max/1200/1*XtCMwEXZe2VcH-jfcHwCBQ.jpeg" height="50" class="card-img-top img-thumbnail" alt="advent of code banner">
+            <div class="card-body">
+                <h1 class="card-title text-center">Advent of Code 2020</h1>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h1>Input:</h1>
+                </div>
+
+                <div class="col">
+                    <h1>Output:</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <textarea id="textareaInput" cols="40" rows="10" placeholder="Enter input here"></textarea>
+                </div>
+                <div class="col">
+                    <textarea id="textareaOutput" cols="40" rows="10" placeholder="Results" readonly></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div id="problemDropdown" class="dropdown">
+                        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Run Problem
+                        </button>
+                        <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item text-dark" href="#" onclick="day1_part1()">Day 1 Part 1</a>
+                            <a class="dropdown-item text-dark" href="#" onclick="day1_part2()">Day 1 Part 2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <script src="day1.js"></script>
+</footer>
+</html>
